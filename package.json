@@ -8,6 +8,9 @@
     "start": "node lib/index.js",
     "postinstall": "node lib/post-install.js"
   },
+  "bin": {
+    "checkMail": "./bin/checkMail"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
